@@ -6,13 +6,13 @@ public class Main {
         Random gerador = new Random();
 
         for (int i = 0; i < 10; i++) {
-            // Sorteia e preenche a lista
+           
             lista[i] = new Passaro("Sorteado " + i);
         }
 
-        // Percorrendo e fazendo chamadas polimorficas
+    
         for (Voador v : lista) {
-            v.voar(); // Isso e Polimorfismo!
+            v.voar(); // 
             System.out.println("---");
         }
     }

@@ -7,10 +7,16 @@ public class Passaro implements Voador {
 
     @Override
     public void voar() {
-        System.out.println("Voando alto!");
+        System.out.println(especie + " voando alto!");
     }
 
-    public void cantar() {
-        System.out.println("Cantando...");
+    @Override
+    public void planar() {
+        System.out.println(especie + " planando no vento...");
+    }
+
+    @Override
+    public void pousar() {
+        System.out.println(especie + " pousou no ninho.");
     }
 }
